@@ -1,13 +1,13 @@
 {% set name = "mkdocs-glightbox" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c7622799347c32310878e01ccf14f70648445561010911c80590cec0353370ac
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: e5af2b6d04494358d34e0c50f493a8fde88da5daac50a86227c2495b616b7a83
 
 build:
   noarch: python
